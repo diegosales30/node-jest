@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "CommonJS",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "build": "rm -rf ./build && tsc",
+    "start": "node build/index.js",
     "dev": "ts-node-dev src/index.ts",
     "test": "jest"
   },
