@@ -1,2 +1,1 @@
 # node-jest
-node teste
